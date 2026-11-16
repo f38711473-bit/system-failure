@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080000">
+  <title>SYSTEM_FAILURE.exe</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main id="game" class="game-container">
+
+    <header>
+      <div class="logo">
+        SYSTEM_FAILURE<span>.exe</span>
+      </div>
+      <div class="safe-label">
+        FICTIONAL SIMULATION
+      </div>
+    </header>
+
+    <section class="hero">
+      <p class="eyebrow">UNKNOWN SESSION // 001</p>
+
+      <h1 id="title">ARE YOU ALONE?</h1>
+
+      <p id="story">
+        You found a strange program on your computer.
+        It should not be running.
+      </p>
+    </section>
+
+    <section class="terminal-panel">
+      <div class="terminal-header">
+        <span>SIMULATED TERMINAL</span>
+        <span class="live">● ONLINE</span>
+      </div>
+
+      <div id="terminal" class="terminal" aria-live="polite">
+        <p>> SYSTEM INITIALIZED</p>
+        <p>> WAITING FOR PLAYER...</p>
+      </div>
+    </section>
+
+    <section class="game-controls">
+
+      <button id="startBtn">
+        START EXPERIENCE
+      </button>
+
+      <div id="choices" class="choices"></div>
+
+      <button id="restartBtn" class="secondary" hidden>
+        PLAY AGAIN
+      </button>
+
+    </section>
+
+    <footer>
+      <p>THIS IS A FICTIONAL GAME.</p>
+      <p>No device access. No real hacking. No data collection.</p>
+    </footer>
+
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
